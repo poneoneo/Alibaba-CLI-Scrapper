@@ -1,51 +1,20 @@
 # CHANGELOG
 
-## v0.2.0 (2024-07-28)
+## v0.3.0 (2024-08-06)
 
 ### Chore
 
-* chore: remove unwanted htmlfiles ([`36e383c`](https://github.com/poneoneo/Alibaba-Scrapper/commit/36e383c5d27c53a0034ba7dc6e6005dcc58e4971))
+* chore: remove all htmlfiles in tests packages ([`9c7c45c`](https://github.com/poneoneo/Alibaba-Scrapper/commit/9c7c45c6cd15c79fa965931bdbc2ecd176593ada))
 
 * chore(commits): Merge tag &#39;v0.2.0&#39; into dev
 
 v0.2.0 ([`a9834fc`](https://github.com/poneoneo/Alibaba-Scrapper/commit/a9834fc827b8ec56212f7534382bd59a4638f6e1))
 
+* chore: remove unwanted htmlfiles ([`36e383c`](https://github.com/poneoneo/Alibaba-Scrapper/commit/36e383c5d27c53a0034ba7dc6e6005dcc58e4971))
+
 * chore(project_config): bump version to 0.2.0 ([`99d91ba`](https://github.com/poneoneo/Alibaba-Scrapper/commit/99d91ba81a04b1b07e6095bfb64d5abd63129b6e))
 
 * chore(project_config): last settings for semantic version ([`7d0539a`](https://github.com/poneoneo/Alibaba-Scrapper/commit/7d0539a187bfbdc8d32dec9a00efdb403f93f6a2))
-
-### Documentation
-
-* docs: update readme and remove unwanted htmlfiles... again :) ([`107a12b`](https://github.com/poneoneo/Alibaba-Scrapper/commit/107a12b3eee2f975970dbe5a6187a382ec8f3399))
-
-* docs: add new help image result ([`c36c5e0`](https://github.com/poneoneo/Alibaba-Scrapper/commit/c36c5e0e7013e66f3b0a06868e254e7fc39b3ca9))
-
-### Feature
-
-* feat(cli_api): add export-as-csv and set-api-key commands ([`070425b`](https://github.com/poneoneo/Alibaba-Scrapper/commit/070425b645b79a3f1ce4ffd8fcdbad1459936d3a))
-
-### Fix
-
-* fix: Merge tag &#39;V0.2.2&#39; into dev
-
-v0.2.2 ([`e0c5437`](https://github.com/poneoneo/Alibaba-Scrapper/commit/e0c5437c741feaf8461c38db4ec4d0fdce97d476))
-
-* fix: fix release v0.2.2 to remove unwanted htmlfiles and update readme ([`51b8f41`](https://github.com/poneoneo/Alibaba-Scrapper/commit/51b8f41e8b2de5e9b529bdd62e0252d903fd85fb))
-
-### Style
-
-* style(cli_api): print pretty message after setting api key ([`c4ffac7`](https://github.com/poneoneo/Alibaba-Scrapper/commit/c4ffac7cb4eb95e5555450758a1c034d2341611f))
-
-### Unknown
-
-* chhore: remove unwanted htmlfiles
-
-V0.2.1
-remove unwanted htmlfiles ([`be10451`](https://github.com/poneoneo/Alibaba-Scrapper/commit/be104519a29913d3dd05969a23fc77e2b903a500))
-
-## v0.2.0-rc.1 (2024-07-27)
-
-### Chore
 
 * chore(dependencies): add dev as default branch ([`2101305`](https://github.com/poneoneo/Alibaba-Scrapper/commit/2101305fddc171e41b1ae78fd9e8c96563a3071f))
 
@@ -63,11 +32,43 @@ remove unwanted htmlfiles ([`be10451`](https://github.com/poneoneo/Alibaba-Scrap
 
 * chore(package_structure): remove requirements.txt ([`1aa0354`](https://github.com/poneoneo/Alibaba-Scrapper/commit/1aa0354ed202567c6b043605538f012f24f746f6))
 
+### Documentation
+
+* docs(readme): add informations about fields that will be retrieved ([`b97bfe1`](https://github.com/poneoneo/Alibaba-Scrapper/commit/b97bfe1516f335c82983b77a84da312a12394b44))
+
+* docs(readme): add informations about fields that will be retrieved ([`57cab65`](https://github.com/poneoneo/Alibaba-Scrapper/commit/57cab6507c506fbe93a68f333b619c07893b9984))
+
+* docs(readme): add informations about fields that will be retrieved ([`59c7f4f`](https://github.com/poneoneo/Alibaba-Scrapper/commit/59c7f4f6b31b936da000f86d93abe7e01f1f24af))
+
+* docs(readme): add sample of csv result and add info about python version required ([`f11ae0c`](https://github.com/poneoneo/Alibaba-Scrapper/commit/f11ae0cacc5d24f3c1c0c7f1bd2b88d5f84bcaab))
+
+* docs(readme): add sample of csv result and add info about python version required ([`3a0a596`](https://github.com/poneoneo/Alibaba-Scrapper/commit/3a0a596a7f1a31e05f945b7f5489f02880f837c3))
+
+* docs(readme): add sample of csv result and add info about python version required ([`c1a4b76`](https://github.com/poneoneo/Alibaba-Scrapper/commit/c1a4b76d40915a5b72288acf80fcdf11e9662632))
+
+* docs(readme): add sample of csv result and add info about python version required ([`b0bc45c`](https://github.com/poneoneo/Alibaba-Scrapper/commit/b0bc45c5904ac95e4178665323842dd2e631b067))
+
+* docs: add images to readme ([`53c7cf3`](https://github.com/poneoneo/Alibaba-Scrapper/commit/53c7cf32ec0c339bd1efc528cde8e6d69a79578a))
+
+* docs: update readme and remove unwanted htmlfiles... again :) ([`107a12b`](https://github.com/poneoneo/Alibaba-Scrapper/commit/107a12b3eee2f975970dbe5a6187a382ec8f3399))
+
+* docs: add new help image result ([`c36c5e0`](https://github.com/poneoneo/Alibaba-Scrapper/commit/c36c5e0e7013e66f3b0a06868e254e7fc39b3ca9))
+
 ### Feature
+
+* feat(cli_api): add export-as-csv and set-api-key commands ([`070425b`](https://github.com/poneoneo/Alibaba-Scrapper/commit/070425b645b79a3f1ce4ffd8fcdbad1459936d3a))
 
 * feat(cli_api): allow to set bright data api key to use async api ([`76613fc`](https://github.com/poneoneo/Alibaba-Scrapper/commit/76613fc257cd6204a71f4a8a22a995dce75c9f25))
 
 * feat(cli_api): add export from sqlite to csv command + fix `base 10 error` bug with minimum_to_order ([`582aa31`](https://github.com/poneoneo/Alibaba-Scrapper/commit/582aa315b509e6cf879a7f601a127cbd35846bde))
+
+### Fix
+
+* fix: Merge tag &#39;V0.2.2&#39; into dev
+
+v0.2.2 ([`e0c5437`](https://github.com/poneoneo/Alibaba-Scrapper/commit/e0c5437c741feaf8461c38db4ec4d0fdce97d476))
+
+* fix: fix release v0.2.2 to remove unwanted htmlfiles and update readme ([`51b8f41`](https://github.com/poneoneo/Alibaba-Scrapper/commit/51b8f41e8b2de5e9b529bdd62e0252d903fd85fb))
 
 ### Refactor
 
@@ -77,9 +78,18 @@ remove unwanted htmlfiles ([`be10451`](https://github.com/poneoneo/Alibaba-Scrap
 
 ### Style
 
+* style(cli_api): print pretty message after setting api key ([`c4ffac7`](https://github.com/poneoneo/Alibaba-Scrapper/commit/c4ffac7cb4eb95e5555450758a1c034d2341611f))
+
 * style(commands): add message at the end of export-as-csv command ([`b720067`](https://github.com/poneoneo/Alibaba-Scrapper/commit/b720067f0a82fe26bf5560a9b6a35338223792ef))
 
 ### Unknown
+
+* docs:update image in readme ([`e3db496`](https://github.com/poneoneo/Alibaba-Scrapper/commit/e3db496e1a2db39ca1d91cf8d0f3f7dbc312098e))
+
+* chhore: remove unwanted htmlfiles
+
+V0.2.1
+remove unwanted htmlfiles ([`be10451`](https://github.com/poneoneo/Alibaba-Scrapper/commit/be104519a29913d3dd05969a23fc77e2b903a500))
 
 * docs:add image for readme ([`ba83e6b`](https://github.com/poneoneo/Alibaba-Scrapper/commit/ba83e6bb2e2465c5eeefb159d167750906e2efe0))
 
